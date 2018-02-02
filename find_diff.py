@@ -24,7 +24,6 @@ class WeiChatFindDifference:
 
         diff = ImageChops.difference(pic_obj1, pic_obj2)
         diff.show()
-        diff.save("picture/diff.png")
 
 
 def main():
